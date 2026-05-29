@@ -1,0 +1,81 @@
+/* =========================
+   FULL MODERN CSS RESET
+   ========================= */
+
+/* 1. Remove default spacing + set box model */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 3. Body setup */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #000;
+}
+
+/* 4. Media elements */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Form elements inherit font */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 6. Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 7. Remove link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 8. Buttons reset */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 9. Improve text wrapping */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 10. Root stacking context safety */
+#root {
+  isolation: isolate;
+}
