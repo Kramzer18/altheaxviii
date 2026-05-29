@@ -34,13 +34,11 @@ function Countdown() {
   }
 
   return (
-    <div className="countdown">
-      <div>
-        <p>
-          {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M{" "}
-          {timeLeft.seconds}S
-        </p>
-      </div>
+    <div>
+      <p className="date">
+        {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M{" "}
+        {timeLeft.seconds}S
+      </p>
     </div>
   );
 }

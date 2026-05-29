@@ -3,6 +3,24 @@
    ========================= */
 
 /* 1. Remove default spacing + set box model */
+
+/* Fonts */
+
+@font-face {
+  font-family: "mea culpa";
+  src: url("./assets/fonts/MeaCulpa-Regular.ttf");
+}
+
+@font-face {
+  font-family: "merri weather";
+  src: url("./assets/fonts/MerriWeather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "alex brush";
+  src: url("./assets/fonts/AlexBrush-Regular.ttf");
+}
+
 *,
 *::before,
 *::after {

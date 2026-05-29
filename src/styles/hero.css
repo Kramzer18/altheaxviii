@@ -5,10 +5,43 @@
   align-items: center;
   text-align: center;
 
+  width: 100%;
   padding: 30px;
-  border-radius: 30px;
+
   background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(3px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
   color: white;
+}
+
+h1 {
+  font-family: "alex brush", cursive;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "merri weather", serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-family: "mea culpa", cursive;
+  font-size: 2rem;
+}
+
+.date {
+  font-family: "merri weather", serif;
+  font-size: 3.2rem;
+  font-weight: 1000;
+}
+
+.date:first-of-type {
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+.details {
+  font-family: "merri weather", serif;
+  font-size: 1.5rem;
 }
