@@ -5,5 +5,10 @@
   align-items: center;
   text-align: center;
 
-  padding: 80px 20px;
+  padding: 30px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
 }

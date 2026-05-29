@@ -1,11 +1,15 @@
+import { HashRouter, Routes, Route } from "react-router-dom";
+
 import "./App.css";
-import Hero from "./components/Hero.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (
-    <>
-      <Hero />
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
