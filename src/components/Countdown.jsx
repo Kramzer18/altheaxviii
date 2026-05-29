@@ -35,10 +35,11 @@ function Countdown() {
 
   return (
     <div className="countdown">
-      <h2>Countdown</h2>
       <div>
-        {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M{" "}
-        {timeLeft.seconds}S
+        <p>
+          {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M{" "}
+          {timeLeft.seconds}S
+        </p>
       </div>
     </div>
   );

@@ -1,11 +1,24 @@
+import "../styles/hero.css";
 import Countdown from "./Countdown.jsx";
 
 function Hero() {
   return (
     <div className="hero">
-      <h1>Althea Turns 18</h1>
+      <h2>A Day of Magic and Celebration</h2>
+      <h1>
+        Althea Marie's <br /> Eighteenth
+      </h1>
+      <p>
+        A new chapter begins—join us in a magical celebration of Althea&apos;s
+        18th birthday.
+      </p>
       <Countdown />
-      <h2>October 04 2026</h2>
+      <p>10 &bull; 04 &bull; 26</p>
+      <p>Sunday | 5PM</p>
+      <p>
+        Mountain Rocks Resort, <br />
+        Talisay, Lipa City
+      </p>
     </div>
   );
 }
