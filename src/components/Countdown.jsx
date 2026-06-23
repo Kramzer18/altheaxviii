@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "../styles/countdown.css";
 
 function Countdown() {
   const targetDate = new Date("2026-10-04T00:00:00");
@@ -30,7 +31,7 @@ function Countdown() {
   }, []);
 
   if (timeLeft.expired) {
-    return <h2>🎉 Happy 18th Birthday Althea!</h2>;
+    return <p className="date">🎉 Happy 18th Birthday Althea!</p>;
   }
 
   return (

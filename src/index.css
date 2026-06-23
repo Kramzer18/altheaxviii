@@ -21,6 +21,21 @@
   src: url("./assets/fonts/AlexBrush-Regular.ttf");
 }
 
+@font-face {
+  font-family: "grand malon";
+  src: url("./assets/fonts/GrandMalon-Regular.ttf");
+}
+
+@font-face {
+  font-family: "zaslia";
+  src: url("./assets/fonts/Zaslia.otf");
+}
+
+@font-face {
+  font-family: "retro floral";
+  src: url("./assets/fonts/Retro Floral.ttf");
+}
+
 *,
 *::before,
 *::after {

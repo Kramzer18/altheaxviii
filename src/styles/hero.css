@@ -1,47 +1,75 @@
-.hero {
+.hero-content {
+  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.ornament-image {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.hero-title {
+  font-family: "grand malon", cursive;
+  font-size: 36px;
+  color: #000;
   text-align: center;
-
-  width: 100%;
-  padding: 30px;
-
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(5px);
-  color: white;
 }
 
-h1 {
-  font-family: "alex brush", cursive;
-  font-size: 3.5rem;
-  font-weight: 400;
+.hero-name {
+  font-family: "zaslia";
+  font-size: 26px;
+  color: #000;
+  text-align: center;
 }
 
-h2 {
-  font-family: "merri weather", serif;
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.subtitle {
+.hero-tagline {
   font-family: "mea culpa", cursive;
-  font-size: 2rem;
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  margin: 20px 30px;
 }
 
-.date {
-  font-family: "merri weather", serif;
-  font-size: 3.2rem;
-  font-weight: 1000;
+.hero-date,
+.hero-location {
+  font-family: "zaslia";
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 0 20px;
+  margin-top: 10px;
 }
 
-.date:first-of-type {
-  font-size: 2.5rem;
-  margin-top: 30px;
+.ornament-image-bottom {
+  transform: scale(-1, -1);
 }
 
-.details {
-  font-family: "merri weather", serif;
-  font-size: 1.5rem;
+.clock-image-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.watch-image {
+  width: 80px;
+  height: auto;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
