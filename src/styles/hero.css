@@ -13,11 +13,16 @@
   margin: 20px 0;
 }
 
+.ornament-image-top {
+  animation: slide 4s ease-in-out infinite;
+}
+
 .hero-title {
   font-family: "grand malon", cursive;
-  font-size: 36px;
+  font-size: 32px;
   color: #000;
   text-align: center;
+  margin: 0 20px;
 }
 
 .hero-name {
@@ -38,7 +43,7 @@
 .hero-date,
 .hero-location {
   font-family: "zaslia";
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -48,6 +53,7 @@
 
 .ornament-image-bottom {
   transform: scale(-1, -1);
+  animation: slide-two 4s ease-in-out infinite;
 }
 
 .clock-image-container {
@@ -71,5 +77,35 @@
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+  33% {
+    transform: translateX(-4px);
+  }
+  66% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-two {
+  0% {
+    transform: translateX(0px);
+  }
+  33% {
+    transform: translateX(4px);
+  }
+  66% {
+    transform: translateX(-4px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }

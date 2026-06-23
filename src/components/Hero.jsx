@@ -12,7 +12,7 @@ function Hero() {
           alt="Ornament Image"
           className="ornament-image-top ornament-image"
         />
-        <h1 className="hero-title">A NIGHT TO REMEMEMBER</h1>
+        <h1 className="hero-title">A NIGHT TO REMEMBER</h1>
         <h2 className="hero-name">Althea's 18th Birthday</h2>
         <p className="hero-tagline">
           A night of elegance, memories, and celebration. Join us for an

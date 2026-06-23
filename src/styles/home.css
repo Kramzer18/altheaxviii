@@ -1,12 +1,4 @@
-.hero-content {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  flex-direction: column;
-}
-
-.ornament-image-bottom {
-  transform: scale(-1, -1);
+body {
+  background: url("../assets/images/bg.png") no-repeat center center;
+  background-size: cover;
 }
